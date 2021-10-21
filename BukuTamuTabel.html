@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Buku Tamu Tabel</title>
+</head>
+    <body>
+        <form>
+          <table border="3" align="center" bgcolor="lightblue" >
+           <tr >  
+              <td>Nama </td>
+              <td><input type="text" name="txtnama" size="30"></td>
+            </tr>    
+             <tr>
+                 <td>  Alamat </td>
+                 <td><input type="text" name="txtalamat" size=30></td>
+            </tr>
+            <tr >  
+                <td> Jenis Kelamin </td>
+                <td><input type="radio" name="jk" >  Laki-laki 
+                <input type="radio" name="jk"> Perempuan </td>
+            </tr>        
+            <tr >  
+                <td>Pekerjaan </td>
+                    <td><select name="Pekerjaan">
+                        <option selected value="PLJR">Pelajar</option>
+                        <option value="pn">Pegawai Negri</option>
+                        <option value="pi">Pegawai Swasta</option>
+                        <option value="ibu rt">Ibu Rumah Tangga</option>
+                    </select> </td>
+            <tr >  
+                <td> Hobby:<br/><br/></td>
+                <td><input type="checkbox" name="Hobby" value="FB"> Facebookan
+                <input type="checkbox" name="Hobby" value="MK"> Main Komputer
+                <input type="checkbox" name="Hobby" value="Tidur"> Tidur <br><br></td>
+            </tr>
+            <tr >   
+                <p  align="center"><td><input type="submit" value="Kirim Data"> <input type="submit" value="Ulangi"></td></p>
+                  
+           
+          </table>
+       </form>
+    </body>
+</html>
